@@ -1,20 +1,18 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright Ebrahim Mottaghi Rezaei [https://www.linkedin.com/in/ebrahim-mr/]. All Rights Reserved. April 2024
 
 #include "EasyLogger.h"
 
 #define LOCTEXT_NAMESPACE "FEasyLoggerModule"
 
-void FEasyLoggerModule::StartupModule()
-{
+void FEasyLoggerModule::StartupModule() {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 }
 
-void FEasyLoggerModule::ShutdownModule()
-{
+void FEasyLoggerModule::ShutdownModule() {
 	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
 	// we call this function before unloading the module.
 }
 
 #undef LOCTEXT_NAMESPACE
-	
-IMPLEMENT_MODULE(FEasyLoggerModule, EasyLogger)
+
+IMPLEMENT_MODULE( FEasyLoggerModule, EasyLogger )

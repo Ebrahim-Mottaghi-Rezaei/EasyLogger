@@ -2,23 +2,29 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
+	"EngineVersion": "5.5.0",
 	"FriendlyName": "EasyLogger",
 	"Description": "An Easy to use yet super helpful logger class to be used in game development.",
-	"Category": "Other",
+	"Category": "Debugging",
 	"CreatedBy": "Ebrahim Mottaghi Rezaei",
 	"CreatedByURL": "https://www.linkedin.com/in/ebrahim-mr/",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "",
-	"EngineVersion": "5.3.0",
+	"DocsURL": "https://docs.google.com/document/d/1_yySMwQXUroZCDl_khUgs98zUJ3UFvKvgaoS41Aecaw",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f01d07baebf14e77a3e256202eb17a46",
+	"SupportURL": "https://forums.unrealengine.com/t/easy-logger-plugin/1815697/",
 	"CanContainContent": false,
-	"IsBetaVersion": true,
+	"IsBetaVersion": false,
 	"Installed": true,
 	"Modules": [
 		{
 			"Name": "EasyLogger",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
 		}
-	]
+	],
+	"IsExperimentalVersion": false
 }

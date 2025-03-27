@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright Ebrahim Mottaghi Rezaei [https://www.linkedin.com/in/ebrahim-mr/]. All Rights Reserved. April 2024
 
 using UnrealBuildTool;
 
@@ -6,7 +6,7 @@ public class EasyLogger : ModuleRules
 {
 	public EasyLogger(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
@@ -23,7 +23,7 @@ public class EasyLogger : ModuleRules
 			
 		
 		PublicDependencyModuleNames.AddRange(
-			new string[]
+			new[]
 			{
 				"Core",
 				// ... add other public dependencies that you statically link with here ...
@@ -32,7 +32,7 @@ public class EasyLogger : ModuleRules
 			
 		
 		PrivateDependencyModuleNames.AddRange(
-			new string[]
+			new[]
 			{
 				"CoreUObject",
 				"Engine",
